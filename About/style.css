@@ -1,0 +1,692 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Poppins", sans-serif;
+  font-family: "Pacifico", cursive;
+  font-family: "El Messiri", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 62.5%;
+  margin: 0 auto;
+}
+.banner1 {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  background: #f9f9f9;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  padding: 0px 15px;
+}
+.banner1 p {
+  padding-left: 10px;
+}
+.banner2 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner3 {
+  height: 5vh;
+  width: 100%;
+  padding: 0px 15px;
+  background: #6cc168;
+  display: flex;
+  align-items: center;
+}
+.banner-links .active {
+  background: #fff;
+  color: #6cc168;
+}
+.banner-links a {
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 2rem;
+  padding: 20px 10px;
+}
+.banner-links a:hover {
+  background: #fff;
+  color: #6cc168;
+}
+.banner-hero {
+  height: 60vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-img::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: url(/img/rich-harvest-vegetables-fruits-wooden-surface.jpg);
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.25;
+}
+.banner-content {
+  /*------I SET POSITION TO RELATIVE TO DEFINE EXPLICT AND MAKE THIS DIV SHOW ON TOP-------*/
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.banner-content h1 {
+  font-size: 3rem;
+  font-family: "Pacifico", cursive;
+  color: #6cc168;
+}
+.banner-content h2 {
+  font-size: 3.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  color: #c19d68;
+}
+.banner-content a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background: #6cc168;
+  color: #fff;
+  padding: 10px 25px;
+  border-radius: 10px;
+}
+/*------------------PAGE 1----------------*/
+#page1 {
+  width: 60%;
+  margin: 0 auto;
+}
+.title {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+.title h1 {
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  color: #c19d68;
+}
+
+.covid-img {
+  background: url(/About/img/covid-19\ img.png);
+  background-size: contain;
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  margin: 20px 0px;
+}
+.covid-content {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  color: #464866;
+}
+.covid-content h2,
+p {
+  font-size: 2rem;
+  font-weight: 300;
+}
+.covid-content ul {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+}
+.covid-content a {
+  font-size: 1.4rem;
+}
+
+/*----------------------PAGE 2--------------------------*/
+#page2 {
+  width: 60%;
+  margin: 0 auto;
+}
+.title {
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+}
+.title h1 {
+  display: flex;
+  align-items: center;
+  font-size: 3.5rem;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  color: #c19d68;
+}
+
+.about-content {
+  font-size: 1rem;
+  color: #464866;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-content p {
+  font-size: 1.8rem;
+}
+
+.about-content p:nth-of-type(2) {
+  padding: 10px 0px 30px 0px;
+}
+.about-content p:last-of-type {
+  font-size: 2rem;
+  padding-top: 30px;
+}
+
+/*----------------------PAGE 3--------------------------*/
+
+/* #page3 {
+  width: 50%;
+  margin: 0 auto;
+}
+.title-p3 {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-p3 {
+  width: 500px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #6cc168;
+}
+.text-p3 h1 {
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.container-p3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Poppins", sans-serif;
+}
+
+.p3-img {
+  background: url(/img/fruit-basket-with-flower-white.png);
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.p3-content h1 {
+  font-size: medium;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1;
+  padding-left: 15px;
+}
+.p3-content h2 {
+  padding-left: 15px;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: lighter;
+}
+.card1-p3 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background: #6cc168;
+  color: #fff;
+  padding: 10px 30px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.p3-list {
+  display: flex;
+  margin: 10px 0px;
+}
+.p3-list li {
+  list-style: none;
+  padding: 0 15px;
+  margin-top: 10px;
+  font-size: 1.3rem;
+}
+
+.card2-p3 .p3-img {
+  background: url(/img/Vegetables\ basket\ white\ bg.png);
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.card2-p3 a {
+  font-size: 1.5rem;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  background: #6cc168;
+  color: #fff;
+  padding: 10px 30px;
+  margin-right: 10px;
+  border-radius: 10px;
+} */
+
+/*---------------------------------PAGE 4---------------------------------------*/
+
+#page4 {
+  width: 100%;
+  margin-top: 100px;
+}
+.service {
+  height: 40vh;
+  position: relative;
+  display: flex;
+}
+.service-img {
+  background: url(/img/service\ bg.jpg);
+  background-size: cover;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.25;
+}
+.service-icon {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-1,
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.icon-1,
+.icon-2,
+.icon-3,
+.icon-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-icon .text {
+  padding-left: 10px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.2;
+}
+.text h1 {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+.text p {
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
+/*---------------------------------footer---------------------------------------*/
+
+footer {
+  width: 100%;
+  margin-top: 200px;
+}
+.f-container {
+  padding-top: 50px;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.f-img {
+  background: url(/img/footer\ bg2.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(8px);
+}
+.footer1 {
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box-f1,
+.box-f2 {
+  min-width: 35%;
+  max-width: 35%;
+}
+.box-f1 h1,
+.box-f2 h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+}
+.box-f1 p,
+.box-f2 p {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  padding: 15px 0px;
+}
+.box-f1 h2 {
+  font-size: 1.7rem;
+  font-weight: lighte;
+}
+
+.footer2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer2 li {
+  display: flex;
+  align-items: center;
+}
+.footer2 a {
+  text-decoration: none;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.footer2 p {
+  font-size: 1.5rem;
+}
+
+.footer2 p:first-of-type {
+  margin-top: 50px;
+}
+.footer2 p:last-of-type {
+  margin-bottom: 20px;
+}
+
+/*-------------------------------MEDIA QUERIES-------------------------------------*/
+
+/*--------------------------PHONES-----------------------*/
+
+/*--------------------------Header-----------------------*/
+@media (min-width: 320px) and (max-width: 480px) {
+  .banner3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px;
+  }
+
+  .banner-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .banner-links a {
+    padding: 0px 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+
+  .banner-content img {
+    width: 250px;
+    height: 162px;
+  }
+  .banner-content h1 {
+    font-size: 20px;
+    padding: 0px 0px;
+  }
+  .banner-content h2 {
+    font-size: 18px;
+    padding: 0px 0px 15px 0px;
+  }
+  .banner-content a {
+    font-size: 10px;
+    padding: 8px 20px;
+    border-radius: 5px;
+  }
+
+  #page1 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .title h1 {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+  }
+
+  .container1 {
+    justify-content: center;
+  }
+  .card-content {
+    padding-bottom: 20px;
+  }
+
+  #page1 .card {
+    border: 1px solid #c19d68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .card-img {
+    height: 250px;
+    width: 290px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+  }
+  .card-content p,
+  span {
+    font-size: 2rem;
+  }
+  .card-content span {
+    padding-bottom: 5px;
+  }
+
+  .card-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  .card-content li {
+    padding: 0px 7px 0px 7px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+
+  #page2 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .title h1 {
+    font-size: 25px;
+    display: flex;
+    width: 100%;
+  }
+
+  .container2 {
+    justify-content: center;
+  }
+  .card-content {
+    padding-bottom: 20px;
+  }
+
+  #page2 .card {
+    border: 1px solid #c19d68;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  #page2 .card-img {
+    height: 250px;
+    width: 290px;
+    background: url(/img/home3-images-banner1.png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+  }
+  .card-content p,
+  span {
+    font-size: 2rem;
+  }
+  .card-content span {
+    padding-bottom: 5px;
+  }
+
+  .card-content ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  .card-content li {
+    padding: 0px 7px 0px 7px;
+    font-weight: lighter;
+    font-size: 1.5rem;
+  }
+
+  #page3 {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .title-p3 {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .text-p3 {
+    width: 500px;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6cc168;
+  }
+
+  .container-p3 {
+    display: block;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card1-p3,
+  .card2-p3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  #page4 {
+    width: 100%;
+    margin-top: 150px;
+  }
+  .service {
+    height: 90vh;
+    position: relative;
+    display: flex;
+  }
+
+  .service-img {
+    background-position: 90%;
+    height: 100vh;
+  }
+  .service-icon {
+    width: 100%;
+    display: block;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0px;
+  }
+
+  .icon-1,
+  .icon-2,
+  .icon-3,
+  .icon-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .service-icon .text {
+    text-align: center;
+  }
+  .text h1 {
+    font-size: 2.5rem;
+    font-weight: light;
+  }
+  .text p {
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+
+  .footer1 {
+    width: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: block;
+  }
+  .box-f1,
+  .box-f2 {
+    min-width: 100%;
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .footer2 p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .footer2 p:first-of-type {
+    margin-top: 50px;
+  }
+  .footer2 p:last-of-type {
+    margin-bottom: 20px;
+  }
+}
